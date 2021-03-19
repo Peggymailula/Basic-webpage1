@@ -8,37 +8,41 @@
 </head>
 
 <style>
-
+body{
+    background-color: palevioletred;
+}
 h1{
     font-size: xx-large;
-    color: darkmagenta;
+    color: rgb(94, 11, 76);
 }
-p{
-    font-size: large;
-    color: darkred;
-}
-.button {             
-      text-align: center;    
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-    cursor: pointer;
-}     
 
-.content{
-text-align: center; 
-    }
+a.button1{
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:#FFFFFF;
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button1:hover{
+ color:#000000;
+ background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
 
-@media (max-width: 800px) {
-.button {
-display:block;
-float:none;
-}
-}
-body{
-    background-image:url("../Images/pas.jpg");
     
-}
+
     
 
 </style>
@@ -53,10 +57,10 @@ body{
 -->
 <div class="content">
     <p>
-       <button> <a href="webpage1(HTML&CSS)/webpage1.html" >Webpage 1(CSS & HTML)</button></a>
+       <button> <a href="webpage1(HTML&CSS)/webpage1.html" class="button1" >Webpage 1(CSS & HTML)</button></a>
 
 
-        <button><a href="webpage2(Simple Grid)/webpage-2.html" >Webpage 2 (simple-grid)</button></a>
+        <button><a href="webpage2(Simple Grid)/webpage-2.html" class="button1">Webpage 2 (simple-grid)</button></a>
     
     </div>
   
