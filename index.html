@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Landing Page</title>
 </head>
 
@@ -16,6 +17,30 @@ p{
     font-size: large;
     color: darkred;
 }
+.button {             
+      text-align: center;    
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+    cursor: pointer;
+}     
+
+.content{
+text-align: center; 
+    }
+
+@media (max-width: 800px) {
+.button {
+display:block;
+float:none;
+}
+}
+body{
+    background-image:url("../Images/pas.jpg");
+    
+}
+    
+
 </style>
 
 <body>
@@ -26,13 +51,17 @@ p{
 </p>
 <br>
 -->
+<div class="content">
     <p>
-        <a href="webpage1(HTML&CSS)/webpage1.html">Webpage 1(CSS & HTML)</a>
+       <button> <a href="webpage1(HTML&CSS)/webpage1.html" >Webpage 1(CSS & HTML)</button></a>
 
-    </p>
 
-    <p>
-        <a href="webpage2(Simple Grid)/webpage-2.html">Webpage 2 (simple-grid)</a>
-    </p>
+        <button><a href="webpage2(Simple Grid)/webpage-2.html" >Webpage 2 (simple-grid)</button></a>
+    
+    </div>
+  
+
+
+
 </body>
 </html>
